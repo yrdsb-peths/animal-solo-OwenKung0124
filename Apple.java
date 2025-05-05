@@ -28,4 +28,11 @@ public class Apple extends Actor
         }
             
     }
+    
+    public Apple()
+    {
+        GreenfootImage image = getImage();
+        image.scale(50, 50);
+        setImage(image);
+    }
 }
