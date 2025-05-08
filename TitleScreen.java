@@ -63,7 +63,7 @@ public class TitleScreen extends World
         elephant.setLocation(312,125);
         elephant.setLocation(312,94);
         label.setLocation(307,307);
-        Label label2 = new Label("Press <空白鍵> to Start ", 40);
+        Label label2 = new Label("Press <space> to Start ", 40);
         addObject(label2,298,355);
         label2.setLocation(454,358);
         label2.setLocation(305,352);
